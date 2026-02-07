@@ -30,12 +30,6 @@ CRMs and AI Agents for automation, efficiency and scale.
 
 ---
 
-## 🌍 Find me elsewhere
-- 💼 LinkedIn: https://www.linkedin.com/in/matheus-trajano-327b1618a
-- 🌐 Website (soon)
-
----
-
 ## 📌 Currently
 🚧 Building Zeety.ia (early-stage)  
 Sharing the journey of product, tech and AI.
