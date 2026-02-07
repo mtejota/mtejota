@@ -1,16 +1,41 @@
-## Hi there 👋
+# Hi, I'm Matheus Trajano 👋
 
-<!--
-**mtejota/mtejota** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Founder & Developer | Building CRMs and AI Agents to scale businesses 🚀
 
-Here are some ideas to get you started:
+I'm the founder of **Zeety.ia**, a startup focused on creating **intelligent CRMs and AI agents** applied to real business problems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build **web and mobile products end-to-end**, combining product vision, engineering and automation to help companies scale operations with less manual work.
+
+---
+
+## 🧠 What I'm building
+- 🤖 AI Agents for sales and customer support
+- 📊 Intelligent CRM systems
+- 🔄 Business process automation
+- 📱 Web & Mobile applications
+
+---
+
+## 🛠️ My current stack
+🌐 **Front-end Web**: React, TypeScript  
+📱 **Front-end Mobile**: React Native  
+⚙️ **Product & Integrations**: APIs, Automations  
+🧠 **AI**: Applied AI for CRM and workflows  
+
+---
+
+## 🚀 Startup
+**Zeety.ia**  
+CRMs and AI Agents for automation, efficiency and scale.
+
+---
+
+## 🌍 Find me elsewhere
+- 💼 LinkedIn: https://www.linkedin.com/in/matheus-trajano-327b1618a
+- 🌐 Website (soon)
+
+---
+
+## 📌 Currently
+🚧 Building Zeety.ia (early-stage)  
+Sharing the journey of product, tech and AI.
