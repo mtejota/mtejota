@@ -18,7 +18,7 @@ I build **web and mobile products end-to-end**, combining product vision, engine
 
 ## 🛠️ My current stack
 🌐 **Front-end Web:** React, TypeScript  
-📱 **Front-end Mobile:** React Native  
+📱 **Mobile:** React Native  
 ⚙️ **Product & Integrations:** APIs, Automations  
 🧠 **AI:** Applied AI for CRM and workflows  
 🖥️ **Back-end:** Python, Node.js  
