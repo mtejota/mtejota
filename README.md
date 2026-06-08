@@ -21,7 +21,7 @@ I build **web and mobile products end-to-end**, combining product vision, engine
 📱 **Mobile:** React Native  
 ⚙️ **Product & Integrations:** APIs, Automations  
 🧠 **AI:** Applied AI for CRM and workflows  
-🖥️ **Back-end:** Python, Node.js, TanStack Query
+🖥️ **Back-end:** Python, Node.js, TanStack Query   
 🗄️ **Databases:** SQL, PostgreSQL, Supabase  
 ☁️ **Infrastructure & Tools:** Git, GitHub, Docker
 
