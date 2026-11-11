@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220" width="840" height="220">
+  <style>
+    
+    * { margin:0; padding:0 }
+    .bg { fill:#ffffff }
+    .name { font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight:800; font-size:52px; fill:#0f1d33 }
+    .sub { font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight:400; font-size:16px; fill:#4a5a70 }
+    .role { font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight:500; font-size:18px; fill:#16273e }
+    .accent { fill:#0077ff }
+    .dot { fill:#1fb866 }
+
+    .fade-in { opacity:0; animation: fadeIn 0.6s ease forwards }
+    .slide-up { opacity:0; transform:translateY(20px); animation: slideUp 0.6s ease forwards }
+
+    @keyframes fadeIn { to { opacity:1 } }
+    @keyframes slideUp { to { opacity:1; transform:translateY(0) } }
+    @keyframes shimmer {
+      0% { opacity:0.3 }
+      50% { opacity:1 }
+      100% { opacity:0.3 }
+    }
+    @keyframes shine {
+      0% { offset-distance:0% }
+      100% { offset-distance:100% }
+    }
+    
+    @media(prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      .fade-in,.slide-up,.grow-bar,.pop-in{opacity:1!important;transform:none!important}
+    }
+  </style>
+  <rect class="bg" width="840" height="220" rx="12"/>
+  <line x1="40" y1="219" x2="800" y2="219" stroke="#dde4ec" stroke-width="1"/>
+
+  <!-- Name -->
+  <text class="name fade-in" x="40" y="72" style="animation-delay:0.1s;">Matheus</text>
+  <text class="name accent fade-in" x="40" y="130" style="animation-delay:0.3s;">Trajano</text>
+
+  <!-- Blue shine on last name -->
+  <defs>
+    <linearGradient id="shine-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0077ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#0077ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="name-clip">
+      <text x="40" y="130" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:800;font-size:52px">Trajano</text>
+    </clipPath>
+  </defs>
+  <rect x="-100" y="100" width="100" height="40" fill="url(#shine-grad)" clip-path="url(#name-clip)">
+    <animate attributeName="x" from="-100" to="840" dur="3s" begin="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Role -->
+  <text class="role slide-up" x="40" y="165" style="animation-delay:0.5s;">Founder &amp; Developer at <tspan fill="#0077ff">Zeety.ia</tspan></text>
+  <circle class="dot" cx="40" cy="190" r="4" style="animation:shimmer 2s ease infinite;animation-delay:1s"/>
+  <text class="sub slide-up" x="52" y="195" style="animation-delay:0.6s;">Building CRMs and AI Agents to scale businesses</text>
+</svg>

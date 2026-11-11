@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 120" width="840" height="120">
+  <style>
+    
+    .bg { fill:#ffffff }
+    .title { font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight:700; font-size:13px; fill:#0f1d33; text-transform:uppercase; letter-spacing:1.5px }
+    .fade-in { opacity:0; animation:fadeIn 0.5s ease forwards }
+    @keyframes fadeIn { to { opacity:1 } }
+    
+    @media(prefers-reduced-motion:reduce){
+      *{animation:none!important;opacity:1!important;transform:none!important}
+      .fade-in,.slide-up,.grow-bar,.pop-in{opacity:1!important;transform:none!important}
+    }
+  </style>
+  <rect class="bg" width="840" height="120" rx="12"/>
+  <text class="title fade-in" x="40" y="30" style="animation-delay:2.0s;">Stack</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.2s" fill="freeze"/>
+        <rect x="40" y="50" width="66.5" height="32" rx="16" fill="#0077ff" opacity="0.08"/>
+        <circle cx="54" cy="66" r="4" fill="#0077ff"/>
+        <text x="64" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">React</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.2800000000000002s" fill="freeze"/>
+        <rect x="116.5" y="50" width="109.0" height="32" rx="16" fill="#3178c6" opacity="0.08"/>
+        <circle cx="130.5" cy="66" r="4" fill="#3178c6"/>
+        <text x="140.5" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">TypeScript</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.3600000000000003s" fill="freeze"/>
+        <rect x="235.5" y="50" width="75.0" height="32" rx="16" fill="#3572A5" opacity="0.08"/>
+        <circle cx="249.5" cy="66" r="4" fill="#3572A5"/>
+        <text x="259.5" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">Python</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.4400000000000004s" fill="freeze"/>
+        <rect x="320.5" y="50" width="83.5" height="32" rx="16" fill="#339933" opacity="0.08"/>
+        <circle cx="334.5" cy="66" r="4" fill="#339933"/>
+        <text x="344.5" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">Node.js</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.52s" fill="freeze"/>
+        <rect x="414.0" y="50" width="126.0" height="32" rx="16" fill="#61dafb" opacity="0.08"/>
+        <circle cx="428.0" cy="66" r="4" fill="#61dafb"/>
+        <text x="438.0" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">React Native</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.6s" fill="freeze"/>
+        <rect x="550.0" y="50" width="109.0" height="32" rx="16" fill="#336791" opacity="0.08"/>
+        <circle cx="564.0" cy="66" r="4" fill="#336791"/>
+        <text x="574.0" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">PostgreSQL</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.68s" fill="freeze"/>
+        <rect x="669.0" y="50" width="92.0" height="32" rx="16" fill="#3ecf8e" opacity="0.08"/>
+        <circle cx="683.0" cy="66" r="4" fill="#3ecf8e"/>
+        <text x="693.0" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">Supabase</text>
+      </g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.7600000000000002s" fill="freeze"/>
+        <rect x="771.0" y="50" width="75.0" height="32" rx="16" fill="#2496ed" opacity="0.08"/>
+        <circle cx="785.0" cy="66" r="4" fill="#2496ed"/>
+        <text x="795.0" y="71" style="font-family:'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;fill:#0f1d33">Docker</text>
+      </g>
+</svg>

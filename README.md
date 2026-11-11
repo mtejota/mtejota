@@ -1,38 +1,13 @@
-# Hi, I'm Matheus Trajano 👋
+<a href="https://zeety.com.br">
+  <img src="./cards/hero.svg" width="100%" alt="Matheus Trajano — Founder & Developer at Zeety.ia" />
+</a>
 
-Founder & Developer | Building CRMs and AI Agents to scale businesses 🚀
+<a href="https://zeety.com.br"><img src="./cards/tile-agents.svg" width="32.5%" /></a>
+<a href="https://zeety.com.br"><img src="./cards/tile-crm.svg" width="32.5%" /></a>
+<a href="https://zeety.com.br"><img src="./cards/tile-auto.svg" width="32.5%" /></a>
 
-I'm the founder of **Zeety.ia**, a startup focused on creating **intelligent CRMs and AI agents** applied to real business problems.
+<img src="./cards/activity.svg" width="100%" alt="Contribution activity — last 12 months" />
 
-I build **web and mobile products end-to-end**, combining product vision, engineering and automation to help companies scale operations with less manual work.
+<img src="./cards/graph.svg" width="100%" alt="Contribution graph" />
 
----
-
-## 🧠 What I'm building
-- 🤖 AI Agents for sales and customer support
-- 📊 Intelligent CRM systems
-- 🔄 Business process automation
-- 📱 Web & Mobile applications
-
----
-
-## 🛠️ My current stack
-🌐 **Front-end Web:** React, TypeScript, JavaScript  
-📱 **Mobile:** React Native  
-⚙️ **Product & Integrations:** APIs, Automations  
-🧠 **AI:** Applied AI for CRM and workflows  
-🖥️ **Back-end:** Python, Node.js, TanStack Query   
-🗄️ **Databases:** SQL, PostgreSQL, Supabase  
-☁️ **Infrastructure & Tools:** Git, GitHub, Docker
-
----
-
-## 🚀 Startup
-**Zeety.ia**  
-CRMs and AI Agents for automation, efficiency and scale.
-
----
-
-## 📌 Currently
-🚧 Building Zeety.ia (early-stage)  
-Sharing the journey of product, tech and AI.
+<img src="./cards/stack.svg" width="100%" alt="Tech stack" />
