@@ -36,7 +36,7 @@
     <text class="label" x="24" y="36">AI AGENTS</text>
 
     <!-- Number with count-up -->
-    <text class="num" x="24" y="90">129</text>
+    <text class="num" x="24" y="90">130</text>
 
     <!-- Subtitle -->
     <text class="sub" x="24" y="115">commits this year</text>
